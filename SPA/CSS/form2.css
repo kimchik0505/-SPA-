@@ -1,0 +1,73 @@
+*{box-sizing: border-box}
+
+/* Add padding to containers */
+.form_register {
+  padding: 16px;
+  
+}
+
+.register{
+  vertical-align: center;
+  margin: auto;
+}
+
+h2{
+  text-transform: uppercase;
+  font-family: arial;
+  text-align: center;
+  margin: 150px auto;
+}
+
+td{
+  text-transform: uppercase;
+  font-family: arial;
+}
+
+input[type=password], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+input[type=submit]:hover {
+  opacity:1;
+}
+
+table{
+  vertical-align: center;
+  margin:-150px auto;
+}
+.block_for_messages{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial;
+  margin: auto;
+  font-size: 17pt;
+  font-weight: bold;
+  color: #b22222;
+}
+.err_mess{
+  color: #b22222;
+}
+.succ_mess{
+  color: #00ff7f;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>transport.s</title>
+	<script type="text/javascript">
+			"use strict";
+			
+			function calc(){
+			var HeigthArea = document.getElementById('InputHeigth');
+
+			var WidthArea = document.getElementById('InputWidth');
+			var LengthArea = document.getElementById('InputLength');
+			var WeightArea = document.getElementById('InputWeight');
+			var DistanceArea = document.getElementById('InputDistance');
+			var koef = 0.00162;
+			var Sum = eval(HeigthArea*WidthArea*LengthArea*WeightArea*DistanceArea);
+			alert("Стоимость вашей перевозки - " + HeigthArea+ " руб.") ;
+			}
+	</script>
+</head>
+<body>
+	<ul>
+	<li>
+		<textarea id = "InputHeigth">0</textarea>
+	</li>
+	<li>
+		<textarea id = "InputWidth">0</textarea>
+	</li>
+	<li>
+		<textarea id = "InputLength">0</textarea>
+	</li>
+	<li>
+		<textarea id = "InputWeight">0</textarea>
+	</li>
+	<li>
+		<textarea id = "InputDistance">0</textarea>
+	</li>
+	<input type = "button" name = "Calc" onclick="calc()" value = "Расчитать">
+	</ul>
+</body>
+</html>
